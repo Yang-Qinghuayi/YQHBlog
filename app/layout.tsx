@@ -63,6 +63,3 @@ export const metadata = {
   },
 };
 
-export const viewpoint = {
-  themeColor: "#171717",
-};
