@@ -1,6 +1,4 @@
 import Image from "next/image";
-import Link from "next/link";
-import helloPic from "@/public/img/face.jpeg";
 
 const WelcomeCard = () => {
   return (
@@ -8,7 +6,7 @@ const WelcomeCard = () => {
       <div className="primary relative flex flex-col-reverse justify-between p-4 font-title sm:flex-row sm:p-8">
         <div className="z-20">
           <h1 className="pb-2 text-4xl font-bold tracking-tight">
-            Whexy
+            杨青花一
           </h1>
           <p className="text-lg">
             <span className="opacity-80">CS student at </span>
@@ -31,29 +29,19 @@ const WelcomeCard = () => {
               </svg>
               <p>Github</p>
             </a>
-            <Link
-              className="secondbg group mx-1 grid place-items-center space-x-1 rounded-lg px-3 py-2 font-title ring-red-500 transition-all hover:ring-2"
-              href="https://twitter.com/whexyshi">
-              <svg
-                className="h-4 w-4"
-                viewBox="0 0 300 300"
-                version="1.1"
-                xmlns="http://www.w3.org/2000/svg">
-                <path d="M178.57 127.15 290.27 0h-26.46l-97.03 110.38L89.34 0H0l117.13 166.93L0 300.25h26.46l102.4-116.59 81.8 116.59h89.34M36.01 19.54H76.66l187.13 262.13h-40.66" />
-              </svg>
-            </Link>
+
           </div>
         </div>
-        <Link
-          href="https://shiwx.org"
-          className="mb-6 h-[80px] w-[80px] transition-all duration-500 hover:rotate-2 hover:scale-105 sm:mb-0 sm:h-[120px] sm:w-[120px]">
+        <div className="mb-6 h-[80px] w-[80px] transition-all duration-500 hover:rotate-2 hover:scale-105 sm:mb-0 sm:h-[120px] sm:w-[120px]">
           <Image
-            src={helloPic}
+            src='https://avatars.githubusercontent.com/u/87259286?v=4'
+            width= '100'
+            height= '100'
             alt="a photo of Whexy"
             className="secondbg overflow-hidden rounded-full object-cover"
             priority
           />
-        </Link>
+        </div>
       </div>
     </div>
   );
