@@ -5,7 +5,7 @@ export async function GET() {
   const allBlogs = getBlogPosts();
 
   const feed = new RSS({
-    title: "Whexy Blog",
+    title: "YQHY Blog",
     description: "a student obsessed with the computing world",
     feed_url: "https://whexy.com/feed/feed.xml",
     site_url: "https://whexy.com",

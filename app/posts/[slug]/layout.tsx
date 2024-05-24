@@ -28,29 +28,29 @@ export default async function BlogLayout({
       <div className="bg-gray-100">
         <article className="pb-5 font-article sm:pt-10">
           <Prose>
-            <h1>{post.metadata.title}</h1>
+            <h1>{post?.metadata?.title}</h1>
             <div className="-mt-5 flex items-center justify-between pb-5 font-sans text-sm lg:text-base">
               <div className="inline-flex items-center space-x-1">
-                <div>{metadata.author.name} / </div>
+                <div>{metadata?.author?.name} / </div>
                 <span>
                   {format(
-                    parseISO(post.metadata.publishDate),
+                    parseISO(post?.metadata?.publishDate),
                     "MMMM dd, yyyy",
                   )}
                 </span>
               </div>
             </div>
-            {post.metadata.series && (
+            {post?.metadata?.series && (
               <Series
                 slug={post.slug}
-                series={post.metadata.series}
+                series={post?.metadata?.series}
               />
             )}
             {children}
             {post.metadata.series && (
               <Series
                 slug={post.slug}
-                series={post.metadata.series}
+                series={post?.metadata?.series}
               />
             )}
             <License />

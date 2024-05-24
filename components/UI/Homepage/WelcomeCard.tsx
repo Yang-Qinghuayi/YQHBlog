@@ -10,12 +10,12 @@ const WelcomeCard = () => {
           </h1>
           <p className="text-lg">
             <span className="opacity-80">CS student at </span>
-            Northwestern
+            CQU
           </p>
           <div className="mt-5 flex">
             <a
               className="secondbg group mr-1 inline-flex space-x-1 rounded-lg px-3 py-2 font-title ring-red-500 transition-all hover:ring-2"
-              href="https://github.com/whexy">
+              href="https://github.com/Yang-Qinghuayi">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 aria-hidden="true"

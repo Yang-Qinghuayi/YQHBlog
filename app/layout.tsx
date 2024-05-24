@@ -40,7 +40,7 @@ export default function RootLayout({
     <html
       className={`${lato.variable} ${noto_sans_sc.variable} ${fira.variable}`}>
       <body>
-        <main className="min-h-[80vh] bg-gray-100 text-black-readable">
+        <main className="min-h-[100vh] bg-gray-100 text-black-readable">
           <div className="mx-auto max-w-5xl px-2">{children}</div>
         </main>
       </body>
@@ -49,7 +49,7 @@ export default function RootLayout({
 }
 
 export const metadata = {
-  title: "Whexy",
+  title: "YQHY",
   description: "CS PhD student at Northwestern.",
   icons: {
     icon: "/img/favicon-32x32.png",
