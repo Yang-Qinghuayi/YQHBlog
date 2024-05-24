@@ -5,10 +5,8 @@ export default function Page() {
   return (
     <>
       <WelcomeCard />
-      <div>
-        {/* <DynJump /> */}
-        <PostsView />
-      </div>
+      {/* <DynJump /> */}
+      <PostsView />
     </>
   );
 }

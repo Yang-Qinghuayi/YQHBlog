@@ -18,7 +18,7 @@ const PostsView = ({ feature_only = false }) => {
     );
   }
   return (
-    <div className="primary mx-auto mt-4 space-y-6 py-5 sm:mt-10 sm:px-4">
+    <div className="primary mx-auto mt-5 space-y-6 py-5 sm:mt-5 sm:px-4">
       {filteredBlogPosts.map(post => (
         <PostCard
           key={post.metadata.title}

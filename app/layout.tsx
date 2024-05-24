@@ -50,7 +50,7 @@ export default function RootLayout({
 
 export const metadata = {
   title: "YQHY",
-  description: "CS PhD student at Northwestern.",
+  description: "CS PhD student at CQU.",
   icons: {
     icon: "/img/favicon-32x32.png",
     apple: "/img/apple-touch-icon.png",
